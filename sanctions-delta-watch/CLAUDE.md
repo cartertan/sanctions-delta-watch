@@ -1,6 +1,6 @@
 # CLAUDE.md — Sanctions Delta Watch
 
-**Design: [A event-driven | B snapshot-diff] — set this after Stage 0 of INSTRUCTIONS.md**
+**Design: [A event-driven] 
 
 ## What this project is
 A portfolio demo that continuously re-screens an exchange's known addresses when the
