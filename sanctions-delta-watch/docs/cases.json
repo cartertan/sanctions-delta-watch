@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "opened": "2026-09-18T07:46:35.493196+00:00",
+    "chain": "Ethereum",
+    "address": "0xcb74874f1e06fcf80a306e06e5379a44b488ba2d",
+    "customer_id": "CUST-2011",
+    "relationship": "counterparty",
+    "severity": "Critical",
+    "status": "open",
+    "issue_number": 1
+  },
+  {
+    "opened": "2026-09-18T07:47:58.689920+00:00",
+    "chain": "Ethereum",
+    "address": "0xfda1ec4a6178d4916b001a065422d31ebe5f62ff",
+    "customer_id": "CUST-2010",
+    "relationship": "withdrawal_whitelist",
+    "severity": "Critical",
+    "status": "open",
+    "issue_number": 2
+  },
+  {
+    "opened": "2026-09-18T07:47:58.689935+00:00",
+    "chain": "Ethereum",
+    "address": "0x95584c303fcd48af5c6b9873015f2ad0ca84eae3",
+    "customer_id": "CUST-2012",
+    "relationship": "deposit_source",
+    "severity": "High",
+    "status": "open",
+    "issue_number": 3
+  }
+]

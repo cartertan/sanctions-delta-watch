@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-09-18T07:47:58.689207+00:00",
+  "hits": [
+    {
+      "chain": "Ethereum",
+      "address": "0xfda1ec4a6178d4916b001a065422d31ebe5f62ff",
+      "customer_id": "CUST-2010",
+      "relationship": "withdrawal_whitelist",
+      "direction": "out",
+      "asset": "USDT",
+      "amount": 0.0,
+      "tx_date": "2026-06-14",
+      "tx_hash": "",
+      "event_block": 24687198,
+      "event_tx": "0x5446ac44bc6aa4558911d71b95627a7dedf97d7ebc248bdd9644a617e15cd72f",
+      "detected_at": "2026-09-18T07:47:58.267788+00:00",
+      "confirmed_at": "2026-09-18T07:47:58.267788+00:00",
+      "severity": "Critical"
+    },
+    {
+      "chain": "Ethereum",
+      "address": "0xcb74874f1e06fcf80a306e06e5379a44b488ba2d",
+      "customer_id": "CUST-2011",
+      "relationship": "counterparty",
+      "direction": "out",
+      "asset": "USDT",
+      "amount": 18400.0,
+      "tx_date": "2026-08-22",
+      "tx_hash": "0xSYNTHETIC0101",
+      "event_block": 24687198,
+      "event_tx": "0x5446ac44bc6aa4558911d71b95627a7dedf97d7ebc248bdd9644a617e15cd72f",
+      "detected_at": "2026-09-18T07:47:58.267788+00:00",
+      "confirmed_at": "2026-09-18T07:47:58.267788+00:00",
+      "severity": "Critical"
+    },
+    {
+      "chain": "Ethereum",
+      "address": "0x95584c303fcd48af5c6b9873015f2ad0ca84eae3",
+      "customer_id": "CUST-2012",
+      "relationship": "deposit_source",
+      "direction": "in",
+      "asset": "USDC",
+      "amount": 7600.0,
+      "tx_date": "2026-09-01",
+      "tx_hash": "0xSYNTHETIC0102",
+      "event_block": 24687198,
+      "event_tx": "0x5446ac44bc6aa4558911d71b95627a7dedf97d7ebc248bdd9644a617e15cd72f",
+      "detected_at": "2026-09-18T07:47:58.267788+00:00",
+      "confirmed_at": "2026-09-18T07:47:58.267788+00:00",
+      "severity": "High"
+    }
+  ],
+  "notices": []
+}

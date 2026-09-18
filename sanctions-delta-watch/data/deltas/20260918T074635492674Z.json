@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-18T07:46:35.492674+00:00",
+  "hits": [
+    {
+      "chain": "Ethereum",
+      "address": "0xcb74874f1e06fcf80a306e06e5379a44b488ba2d",
+      "customer_id": "CUST-2011",
+      "relationship": "counterparty",
+      "direction": "out",
+      "asset": "USDT",
+      "amount": 18400.0,
+      "tx_date": "2026-08-22",
+      "tx_hash": "0xSYNTHETIC0101",
+      "event_block": 0,
+      "event_tx": "SIMULATED",
+      "detected_at": "2026-09-18T07:46:35.367319+00:00",
+      "confirmed_at": "2026-09-18T07:46:35.367319+00:00",
+      "severity": "Critical"
+    }
+  ],
+  "notices": []
+}
