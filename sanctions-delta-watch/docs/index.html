@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sanctions Delta Watch</title>
+<style>body{font-family:system-ui,sans-serif;max-width:960px;margin:40px auto;padding:0 20px;color:#16202e}
+table{border-collapse:collapse;width:100%}th,td{padding:8px;border-bottom:1px solid #ddd;text-align:left;font-size:14px}
+.hit{color:#b3261e;font-weight:600}</style></head><body>
+<h1>Sanctions Delta Watch</h1>
+<p>Placeholder dashboard. Claude Code replaces this in Stage 6. Data: <code>cases.json</code>. Synthetic customers; oracle data is live.</p>
+<table id="t"><tr><th>Opened</th><th>Chain</th><th>Address</th><th>Customer</th><th>Relationship</th><th>Status</th></tr></table>
+<script>
+fetch('cases.json').then(r=>r.json()).then(cs=>{const t=document.getElementById('t');
+(cs||[]).forEach(c=>{const tr=t.insertRow();[c.opened,c.chain,c.address,c.customer_id,c.relationship,c.status].forEach(v=>{tr.insertCell().textContent=v??''});});
+}).catch(()=>{document.body.insertAdjacentHTML('beforeend','<p>No cases yet.</p>')});
+</script></body></html>
