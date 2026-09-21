@@ -30,3 +30,12 @@
 - Address queries are sent to public RPC operators. Use public demo addresses during the interview.
 - Synthetic relationships are illustrative; severity and decisions are not Chainalysis risk ratings.
 - The public sanctions oracle is not the paid Chainalysis REST API. Product links describe possible next discovery conversations.
+
+### Wallet evidence and official context
+
+- Click **View evidence** beneath an oracle result; ad hoc address lookups also offer a wallet evidence button.
+- The panel rechecks the wallet, validates membership in the known historical event, and provides block/transaction links.
+- For the three designated demo addresses, curated OFAC SDN context identifies the named entity, program and Treasury-stated reason. The exact ETH identifiers were verified in the 2026-09-18 OFAC publication on 2026-09-21. Source links appear in the panel and export.
+- Entity designation dates are 2023-04-24 for Sim Hyon Sop and 2026-03-12 for Yun Song Guk and Amnokgang. They must not be described as the first listing dates of these specific wallets.
+- The March 18, 2026 oracle transaction updates the oracle; it is not proof of an underlying illicit payment. No specific causal transaction is attributed.
+- Only one historical transaction and three official-context mappings are indexed. Uncovered wallets show missing evidence explicitly. Official context is a dated snapshot, not refreshed by the automatic oracle checker.
